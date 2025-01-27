@@ -1,0 +1,25 @@
+.destination.card-text {
+	height: 20px;
+	background: white;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	transition: all ease-in-out 0.5s;
+}
+
+.destination.card-content {
+	z-index: 10;
+}
+
+.destination.card-content:hover > .destination.card-text {
+	height: 200px;
+	white-space: wrap;
+}
+
+.destination.card-content:hover ~ .card-img {
+	opacity: 0.75;
+}
+
+.destination.card-content:hover {
+	box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.65);
+}

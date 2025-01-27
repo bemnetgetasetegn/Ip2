@@ -1,0 +1,140 @@
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  #forma {
+    width: 38vw;
+    height: 46vw;
+  }
+
+  .form-title1 h2 {
+    font-size: 3.5vw;
+  }
+
+  .social-text1 p {
+    font-size: 1.4vw;
+  }
+
+
+  .user-box1 {
+    line-height: 2.8vw;
+  }
+
+  .user-box1 label {
+    font-size: 2vw;
+  }
+
+  .user-box1 input:focus ~ label,
+  .user-box1 input:valid ~ label {
+    top: -15px;
+  }
+
+  .container1 button {
+    font-size: 2.5vw;
+  }
+
+  .wrapper1 a {
+    font-size: 1.4vw;
+  }
+}
+
+@media (min-width: 992px) {
+  #forma {
+    width: 40vw;
+    height: 70vw;
+  }
+
+  .form-title1 h2 {
+    font-size: 3vw;
+  }
+
+  
+
+
+  .user-box1 label {
+    font-size: 1.5vw;
+  }
+
+  .user-box1 input {
+    font-size: 1.8vw;
+  }
+
+  .user-box1 input:focus ~ label,
+  .user-box1 input:valid ~ label {
+    top: -15px;
+    font-size: 1vw;
+  }
+
+  .container1 button {
+    font-size: 2vw;
+  }
+
+  .wrapper1 a {
+    font-size: 1.2vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  #forma {
+    width: 26vw;
+    height: 32vw;
+  }
+
+  .form-title1 h2 {
+    font-size: 2.5vw;
+  }
+
+
+  .user-box1 label {
+    font-size: 1.2vw;
+    top: 0;
+    left: 0;
+  }
+
+  .user-box1 input {
+    font-size: 1.2vw;
+  }
+
+  
+
+  .container1 button {
+    font-size: 1.5vw;
+  }
+
+  .wrapper1 {
+    height: 6vw;
+    width: 50%;
+    justify-content: space-around;
+  }
+
+  .container1 button {
+    height: 3.25vw;
+    width: 70%;
+    color: #fff;
+    background-color: black;
+    border: none;
+    font-family: "Fredoka One", cursive;
+    border-radius: 50px 50px 30px 30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    
+  }
+
+ 
+
+  .container1 button:hover .scale {
+    letter-spacing: 0.3vw;
+    font-size: 1.6vw;
+    transition: 1s;
+  }
+
+  
+
+  .wrapper1 a {
+    font-size: 1vw;
+    transition: 0.2s;
+  }
+
+  .wrapper1 a:hover {
+    color: #4d4d4d;
+  }
+}
